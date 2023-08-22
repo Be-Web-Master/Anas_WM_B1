@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+        <label for = "firstname">First Nmae</label>
+        <input type = "text" name="firstname" id = "firstname"/>
+
+        <label for = "lasttname">Lastt Nmae</label>
+        <input type = "text" name="lasttname" id = "lasttname"/>
+
+        <label for = "age">Age</label>
+        <input onkeyup="validate('age')" type = "number" name="age" id = "age"/>
+
+        <label for = "email">Email</label>
+        <input type = "text" name="email" id = "email"/>
+
+        <label for = "phone">Phone</label>
+        <input  onkeyup = "validate('phone')" type= "number" name="phone" id = "phone">
+
+        <label for = "Gender">Gender</label>
+
+
+        <label for = "male">Male</label>
+        <input type = "radio" name="male" id = "male"/>
+
+        <label for = "female">Female</label>
+        <input type = "radio" name="female" id = "female"/>
+
+        <p id="error message">error message</p>
+
+        <button type="submit">Submit</button>
+
++
+        <script src="script.js"></script>
+
+
+
+    </form>
+    
+</body>
+</html>
